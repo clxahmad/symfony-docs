@@ -97,6 +97,7 @@ Instead of creating our framework from scratch, we are going to write the same
 start with the simplest web application we can think of in PHP::
 
     // framework/index.php
+<?php 
     $name = $_GET['name'];
 
     printf('Hello %s', $name);
